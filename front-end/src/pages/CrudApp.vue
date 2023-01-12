@@ -174,6 +174,7 @@
                                             class="col d-flex justify-content-end"
                                           >
                                             <button
+                                            type="button"
                                               class="btn btn-primary"
                                               @click="
                                                 onClickUpdate(
@@ -295,7 +296,7 @@
 
                       <div class="row mt-4">
                         <div class="col d-flex justify-content-end">
-                          <button class="btn btn-primary" @click="onClickAdd">
+                          <button type="button" class="btn btn-primary" @click="onClickAdd">
                             Save
                           </button>
                         </div>
